@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .loginbox {
+    background-color: white;
+    border: 1px solid rgba(149, 149, 149, 0.4);
+    width: 350px;
+    padding: 40px 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #title {
+    width: 175px;
+    margin-bottom: 30px;
+  }
+  
+  .input {
+    background-color: #fafafa;
+    border: 1px solid rgba(149, 149, 149, 0.4);
+    height: 35px;
+    width: 100%;
+    margin-bottom: 6px;
+    padding: 0 10px;
+    font-size: 12px;
+  }
+  
+  #loginbutton {
+    background-color: #4bb4f8;
+    color: white;
+    height: 32px;
+    width: 100%;
+    border-radius: 7px;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+  }
+  
+  .line {
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+  }
+  
+  .or-text {
+    margin: 0 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #8e8e8e;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  #fblink {
+    color: #385185;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  #forgotpass {
+    color: #385185;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 15px;
+  }
+  
+  .signup {
+    background-color: white;
+    border: 1px solid rgba(149, 149, 149, 0.4);
+    width: 350px;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  #Signup {
+    font-weight: 600;
+    color: #0095f6;
+  }
+  
+  .app {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .gettheapp {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .store-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .store-buttons img {
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  #gplay,
+  #microsoft {
+    height: 40px;
+    margin: 5px;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    padding: 20px 0;
+  }
+  
+  .linksdiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 90vw;
+    margin-bottom: 10px;
+  }
+  
+  .links {
+    font-size: 12px;
+    color: rgb(103, 103, 103);
+  }
+  
+  .copyright {
+    font-size: 12px;
+    color: rgb(103, 103, 103);
+  }
